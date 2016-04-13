@@ -8,13 +8,7 @@ title: parse apache logs
 
 ## Install logIsland
 
-get [log-island-0.9.1.tgz]({{ site.baseurl }}/public/log-island-0.9.1.tgz) 
-and unzip it where you desire on your edge node 
-(which should be able to communicate with a spark cluster)
-
-define LOGISLAND_HOME as you desire, here we'll just do a no permanent export
-
-    export LOGISLAND_HOME=path/to/unzipped-log-island
+[install](#install.md)
 
 ## Spark configuration
 
