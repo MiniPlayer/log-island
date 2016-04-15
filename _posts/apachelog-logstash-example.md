@@ -10,12 +10,6 @@ title: parse apache logs
 
 [install](#install.md)
 
-## Spark configuration
-
-   LogIsland need spark 1.6 binaries to run. So make your SPARK_HOME
-   point to at least a 1.6 spark version. Then it should work on any 
-   spark version cluster.
-
 ## Launch the apache parser log
 
 Make sure tou have SPARK_HOME well defined, logIsland will use it.
